@@ -25,7 +25,8 @@ let manifest = {
           }
         }
       }
-    }
+    },
+    { plugin: 'hapi-bookshelf-serializer'}
   ]
 }
 
