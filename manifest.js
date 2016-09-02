@@ -9,6 +9,8 @@ let manifest = {
   ],
   registrations: [
     { plugin: './config/plugins/swaggerPlugin' },
+    { plugin: 'hapi-auth-jwt2'},
+    { plugin: './config/plugins/authPlugin'},
     {
       plugin: {
         register: 'hapi-bookshelf-models',
